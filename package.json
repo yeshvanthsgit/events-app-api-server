@@ -1,0 +1,27 @@
+{
+  "name": "cnd-sample-api-server-step-1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "nyc mocha ./src/**/*.test.js --exit"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "morgan": "^1.10.0",
+    "nocache": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/express": "^4.17.11",
+    "@types/mocha": "^8.2.1",
+    "@types/morgan": "^1.9.2",
+    "chai": "^4.3.3",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.1.1",
+    "nyc": "^15.1.0"
+  }
+}

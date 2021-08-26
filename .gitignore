@@ -1,0 +1,4 @@
+node_modules
+logs
+*.logsnpm-debug.log*
+.nyc_output
